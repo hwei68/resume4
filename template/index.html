@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>在线简历</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js"></script>
+   
+	// <script src="static/js/script.js"></script>
+</head>
+
+<body>
+    <div contentEditable=true class="container" id="cv">
+        <div class="side">
+            <div class="me">
+                <div class="portrait"></div>
+            </div>
+            <div class="profile info-unit">
+                <h2 class="info-header"><i class="iconfont icon-person"></i> <span contentEditable=true class="info-title">基本信息</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">姓名</label><span contentEditable=true class="label-value">韦宏渊</span></li>
+                    <li>
+                        <label class="left-label">学历</label><span contentEditable=true class="label-value">本科</span></li>
+                    <li>
+                        <label class="left-label">毕业院校</label><span contentEditable=true class="label-value">北京林业大学</span></li>
+                    <li>
+                        <label class="left-label">毕业年份</label><span contentEditable=true class="label-value">2019</span></li>
+                </ul>
+            </div>
+            <div class="contact info-unit">
+                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">手机</label><span class="label-value">182XXXXXXXX</span></li>
+                    <li>
+                        <label class="left-label">邮箱</label><span class="label-value">XXXXXXX@gmail.com</span></li>
+                    <li>
+                        <label class="left-label">个人主页</label><span class="label-value">hwei68.github.io/</span></li>
+                    <li>
+                        <label class="left-label">Github</label><span class="label-value">github.com/hwei68</span></li>
+                </ul>
+            </div>
+            <div class="skill info-unit">
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span contentEditable=true class="info-title">技能点</span></h2>
+                <hr>
+                <ul class="progress-list">
+                    <li>
+                        <label class="left-label">Golang</label>
+                        <progress value="80" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">html/css</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Javascript</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Java</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                </ul>
+            </div>
+            <div class="stack info-unit">
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
+                <hr>
+                <ul class="stack-list">
+                    <li>
+                        <label class="left-label">前端</label><span contentEditable=true class="label-value">jQuery、Angular.js、React.js</span></li>
+                    </li>
+                    <li>
+                        <label class="left-label">后端</label><span contentEditable=true class="label-value">Flask、Django、Twisted、Node.js、MongoDB、MySQL、Redis</span></li>
+                    </li>
+                    <li>
+                        <label class="left-label">其它</label><span contentEditable=true class="label-value">maven, golang, postgresql</span></li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <div class="education info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-education"></i> <span contentEditable=true class="info-title">教育经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>北京林业大学 - 食品科学与工程（本科）2015-2019</h3>
+                        <p>
+                            本人在佐治亚理工学院的深圳校区（中外合作）在读研究生，专业为电子与计算机工程
+
+                            技能: 掌握 Java 基础；熟悉 mysql JVM; 了解 C++， SSM, Redis
+
+                            知识:掌握计算机组成原理、 数据库与算法、 网络、操作系统、软件设计模式等知识
+
+                            英语水平: 英语六级证书
+
+                            自我驱动、自学能力强、抗压能力强。希望能够积累经验，快速成长。
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="work info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">工作经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>北京创客空间－实习生（实习）</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </li>
+                    <li>
+                        <h3>实验楼－课程内容（实习）</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </li>
+                </ul class="experience-list">
+            </div>
+            <div class="project info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-project"></i> <span contentEditable=true class="info-title">个人项目</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>基于 SSM 的水果商城网站（课程项目） 独立完成     2021.08-2021.08</h3>
+                        <p>
+                            水果商城网站是一款基于 SSM 框架开发的电商网站。该网站项目的开发技术栈主要为Spring、 Sprinmvc、 Mybatis、 Jquery、 EasyUI、 Mysql。采用 Spring、 Sprinmvc、 Mybatis(ssm 框架)、 jsp 进行后台开发；使用 Jquery、 EasyUI 进行前台开发；使用 mysql 进行数据库表存储。该网站项目的开发主要涉及到 7 大模块，包含类目管理，用户管理，商品管理，订单管理 等模块。
+							<br/>
+                        </p>
+                    </li>
+                    <li>
+                        <h3>托马斯算法（课程项目）                2020.04 -2020.04</h3>
+                        <p>
+                            用 Java 编程语言编写程序实现 Thomas algorithm
+						</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="trophy info-unit">
+                <h2 class="info-header"><i class="iconfont icon-trophy"></i> <span contentEditable=true class="info-title">奖项与证书</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>小学生作文二等奖</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。
+                        </p>
+                    </li> 
+                    <li>
+                        <h3>曾获统一冰红茶“再来一瓶”奖</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。
+                        </p>
+                    </li> 
+                    <li>
+                        <h3>这一行也是为了凑版面</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam。
+                        </p>
+                    </li>                     
+            </div>
+            <div class="aboutme info-unit right-paragraph">
+                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span contentEditable=true class="info-title">自我评价</span></h2>
+                <hr>
+                <p>
+                   本人在佐治亚理工学院的深圳校区（中外合作）在读研究生，专业为电子与计算机工程
+
+                   技能: 掌握 Java 基础；熟悉 mysql JVM; 了解 C++， SSM, Redis
+
+                   知识:掌握计算机组成原理、 数据库与算法、 网络、操作系统、软件设计模式等知识
+
+                   英语水平: 英语六级证书
+
+                   自我驱动、自学能力强、抗压能力强。希望能够积累经验，快速成长。 
+				</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
